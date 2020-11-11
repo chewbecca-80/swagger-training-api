@@ -3,6 +3,8 @@ import importlib.resources
 import connexion
 import ruamel.yaml
 
+from servaites.python_demo_api import echo
+
 
 YAML = ruamel.yaml.YAML(typ='safe')
 with importlib.resources.path('servaites.python_demo_api', 'api.yaml') as f:
@@ -12,7 +14,8 @@ def get_health():
     return {'message': 'Everything is A-OK'}
 
 def get_echo(message: str):
-    data = {'echo': f'{message} {message} {message}'}
+    data = echo.make_echo(message)
+    # data = {'echo': f'{message} {message} {message}'}
     return data
 
 def main(port: int = 9090):

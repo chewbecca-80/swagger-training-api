@@ -1,0 +1,4 @@
+include:
+  - project: rebecca.servaites/cicd-pipeline
+    ref: master
+    file: python_cicd.yml

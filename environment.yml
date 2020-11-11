@@ -6,3 +6,4 @@ dependencies:
   - pip:
     - connexion[swagger-ui]
     - ruamel.yaml
+    - requests
