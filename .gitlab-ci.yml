@@ -1,4 +1,4 @@
 include:
-  - project: rebecca.servaites/cicd-pipeline
+  - project: devops457/cicd-pipeline
     ref: master
     file: python_cicd.yml
