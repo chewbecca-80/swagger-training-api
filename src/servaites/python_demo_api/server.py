@@ -14,8 +14,8 @@ def get_health():
     return {'message': 'Everything is A-OK'}
 
 def get_echo(message: str):
-    data = echo.make_echo(message)
-    # data = {'echo': f'{message} {message} {message}'}
+    new_message = echo.make_echo(message)
+    data = {'echo': new_message}
     return data
 
 def main(port: int = 9090):
