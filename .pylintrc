@@ -1,0 +1,3 @@
+[MESSAGES CONTROL]
+
+disable = invalid-name, C0111, W1203, W1505, line-too-long, R0903, too-few-public-methods, W0511
