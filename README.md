@@ -1,3 +1,3 @@
-# demo-python-api
+# python-demo-api
 
-A simple Flask API for demos. 
+Small Python Flask application for GitLab CICD demos. 
