@@ -1,4 +1,4 @@
 include:
   - project: devops457/cicd-pipeline
-    ref: simnple-test
+    ref: simple-test
     file: python_cicd.yml
